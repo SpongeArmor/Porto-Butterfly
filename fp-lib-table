@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "butterfly-footprint-libs")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/butterfly-footprint-libs.pretty")(options "")(descr ""))
+)

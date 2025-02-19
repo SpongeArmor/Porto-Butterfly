@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "butterfly-schematic-libs")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/butterfly-schematic-libs.kicad_sym")(options "")(descr ""))
+  (lib (name "butterfly-symbols-legacy")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/Butterfly_v0-eagle-import.kicad_sym")(options "")(descr ""))
+)
