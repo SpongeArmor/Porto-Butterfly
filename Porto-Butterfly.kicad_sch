@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Porto - Butterfly")
-		(date "2025-02-20")
+		(date "2025-02-23")
 		(rev "v2.0")
 	)
 	(lib_symbols
@@ -348,6 +348,14 @@
 			)
 		)
 	)
+	(no_connect
+		(at 237.49 166.37)
+		(uuid "571ee20d-f8d6-4544-8fe8-f3b8a08d496a")
+	)
+	(no_connect
+		(at 237.49 132.08)
+		(uuid "c307f93f-eaf3-4721-b132-5e94b0f70ff1")
+	)
 	(wire
 		(pts
 			(xy 284.48 207.01) (xy 241.3 207.01)
@@ -400,6 +408,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 132.08) (xy 237.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4561f909-15a4-4726-8092-a3d5a44f49ac")
+	)
+	(wire
+		(pts
+			(xy 234.95 166.37) (xy 237.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479864e2-7235-4260-8bdf-e285b414cab7")
+	)
+	(wire
+		(pts
 			(xy 284.48 201.93) (xy 246.38 201.93)
 		)
 		(stroke
@@ -417,16 +445,6 @@
 			(type default)
 		)
 		(uuid "59e5991d-5c12-491d-9969-33aad021d311")
-	)
-	(wire
-		(pts
-			(xy 234.95 132.08) (xy 284.48 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68250249-5722-48d9-9660-7cb838dbab89")
 	)
 	(wire
 		(pts
@@ -1476,7 +1494,7 @@
 				(justify left top)
 			)
 		)
-		(pin "~{INT_IR}" output
+		(pin "~{INT_LUX}" output
 			(at 284.48 129.54 180)
 			(effects
 				(font
@@ -1485,16 +1503,6 @@
 				(justify left)
 			)
 			(uuid "e206acc1-9d60-47a9-b464-afbc73e7f880")
-		)
-		(pin "~{INT_HP}" output
-			(at 284.48 132.08 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a7bd1320-b814-4e4e-9c4f-330ca6048790")
 		)
 		(pin "SCL" input
 			(at 284.48 134.62 180)

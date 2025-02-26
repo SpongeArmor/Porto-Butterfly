@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Porto - Butterfly")
-		(date "2025-02-20")
+		(date "2025-02-23")
 		(rev "v2.0")
 	)
 	(lib_symbols

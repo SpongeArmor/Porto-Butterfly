@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Porto - Butterfly")
-		(date "2025-02-20")
+		(date "2025-02-23")
 		(rev "v2.0")
 	)
 	(lib_symbols
@@ -7231,7 +7231,11 @@
 			(uuid "22fb141c-f7c7-44af-9cde-b100410c9bef")
 		)
 		(instances
-			(project "Porto-Butterfly"
+			(project ""
+				(path "/e3f039c6-0c07-4c61-9e22-bac2658b40f2/5cfd845e-6419-435f-8bce-81f2d111dff1"
+					(reference "Y1")
+					(unit 1)
+				)
 				(path "/e3f039c6-0c07-4c61-9e22-bac2658b40f2/ed1fcee4-91e7-4da2-b112-2e4ba34a650d"
 					(reference "Y1")
 					(unit 1)
